@@ -1,0 +1,61 @@
+/* Adicione estilos conforme necessário */
+body {
+    color: white; /* Define a cor do texto como branco */
+    font-family: Arial, sans-serif; /* Define a fonte para o corpo do documento */
+    display: flex; /* Define o display como flex para centralizar os elementos */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Ocupa a altura total da tela */
+    background-image: url('images/tabletb.png'); /* Define a imagem de fundo */
+    background-size: contain; /* Redimensiona a imagem para caber no container */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    background-position: center; /* Centraliza a imagem na tela */
+}
+
+h1 {
+    font-size: 26px;
+}
+
+form, .content{
+    color: white; /* Define a cor do texto como branco */
+    width: 300px; /* Define a largura do formulário */
+    margin: 0 auto; /* Centraliza o formulário horizontalmente */
+    text-align: center; /* Centraliza o texto dentro do formulário */
+    padding: 20px; /* Adiciona um espaçamento interno ao formulário */
+    
+}
+
+input {
+    border: none; /* Remove a borda padrão dos inputs */
+}
+
+input, button {
+    padding: 10px; /* Adiciona espaço interno (padding) aos inputs e botões */
+    margin-bottom: 10px; /* Adiciona margem inferior aos inputs e botões */
+    width: -webkit-fill-available; /* Preenche a largura disponível */
+}
+
+button {
+    cursor: pointer; /* Muda o cursor para uma mãozinha ao passar o mouse sobre os botões */
+    transition: opacity 0.3s; /* Adiciona uma transição suave de opacidade */
+}
+
+button:active {
+    opacity: 0.8; /* Reduz a opacidade ao clicar no botão */
+}
+
+button[disabled] {
+    opacity: 0.8; /* Reduz a opacidade dos botões desabilitados */
+}
+
+.rec {
+    background: transparent; /* Define o fundo transparente */
+    border: none; /* Remove a borda */
+    color: white; /* Define a cor do texto como branco */
+}
+
+.reg, .enter, .sobre, .back{
+    background: transparent; /* Define o fundo transparente */
+    color: white; /* Define a cor do texto como branco */
+    border: 1px solid white; /* Adiciona uma borda branca */
+}
