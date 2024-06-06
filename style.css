@@ -54,8 +54,20 @@ button[disabled] {
     color: white; /* Define a cor do texto como branco */
 }
 
-.reg, .enter, .sobre, .back{
+.btn{
     background: transparent; /* Define o fundo transparente */
     color: white; /* Define a cor do texto como branco */
     border: 1px solid white; /* Adiciona uma borda branca */
+    border-radius: 50px;
+
+}
+.rotated {
+    transform: rotate(90deg); /* Equal to rotateZ(90deg) */
+}
+
+.custos, th, td {
+    width: 100%;
+    border: 1px solid;
+    padding:3px;
+    margin-bottom: 10px;
 }
